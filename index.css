@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 1px;
+}
+.mainContainer {
+  width: 100%;
+  display: flex;
+  gap: 4%;
+}
+
+.leftContainer {
+  width: 42%;
+  height: auto;
+  background-color: #f4f4f4;
+}
+.photoContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+.photoContainer > img {
+  border-radius: 50%;
+  border: 30px solid white;
+  width: 350px;
+  height: 350px;
+}
+
+.innerTitleDiv {
+  display: flex;
+  color: #444440;
+  justify-content: center;
+  line-height: 0px;
+}
+.title {
+  font-family: "Public Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.title2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  letter-spacing: 4px;
+}
+
+.contactDiv {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  color: #444440;
+  line-height: 1px;
+  padding-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contactDiv > div {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+}
+.contactDiv > div i {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.contactDiv > div a {
+  color: #444440;
+}
+.contactDiv > div > p {
+  font-size: 20px;
+}
+.summary {
+  color: #444440;
+  padding-left: 25px;
+  margin-bottom: 50px;
+  /* border: 1px solid black; */
+}
+#heading {
+  font-family: "Public Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.belowLine {
+  position: relative;
+  width: 75%;
+  margin-left: 0px;
+  height: 5px;
+  top: -17px;
+  border-left: none;
+  border-top: 3px solid #444440;
+}
+.descriptionDiv {
+  line-height: 1px;
+}
+.descriptionDiv > p {
+  width: 90%;
+  color: black;
+  text-align: justify;
+  font-size: 24px;
+  margin-top: -2px;
+}
+.descriptionDiv > p:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+#lastLine:after {
+  content: "";
+  display: inline-block;
+  width: 60%;
+}
+.skillDiv {
+  line-height: 8px;
+  margin-top: -10px;
+}
+.skillDiv,
+.softSkillDiv > p {
+  color: black;
+  font-size: 24px;
+}
+.softSkillDiv {
+  margin-top: -20px;
+}
+.expDiv {
+  line-height: 0px;
+  margin-top: -10px;
+}
+.expDiv > p {
+  color: black;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.expDiv > p > span {
+  font-weight: 600;
+}
+.expLine {
+  position: relative;
+  width: 50%;
+  margin-left: 0px;
+  height: 5px;
+  top: -15px;
+  border-left: none;
+  border-top: 3px solid black;
+}
+.expGain {
+  line-height: 30px;
+  color: black;
+  font-size: 24px;
+  width: 90%;
+}
+.interest {
+  color: #444440;
+  padding-left: 25px;
+  /* border: 1px solid black; */
+}
+.rightContainer {
+  width: 50%;
+}
+.projectsHeading {
+  color: #444440;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.ProjectDiv {
+  line-height: 0px;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.boatHeading {
+  display: flex;
+  gap: 30px;
+  margin-top: -20px;
+}
+.boatHeading p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.boatHeading i {
+  margin-top: 0px;
+  font-size: 45px;
+}
+.boatHeading a {
+  color: black;
+}
+.projectLine {
+  position: relative;
+  width: 38%;
+  margin-left: 0px;
+  height: 5px;
+  top: -29px;
+  border-left: none;
+  border-top: 3px solid #444440;
+}
+.websiteDetail {
+  line-height: normal;
+  margin-top: -20px;
+}
+.projectDesc {
+  margin-top: -15px;
+}
+.featuresHeading {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+.builtIn {
+  margin-top: 35px;
+}
+.education {
+  font-size: 24px;
+  line-height: 8px;
+}
+.education > h3 {
+  color: #444440;
+}
+.education > p {
+  letter-spacing: 4px;
+}
+.duration {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
